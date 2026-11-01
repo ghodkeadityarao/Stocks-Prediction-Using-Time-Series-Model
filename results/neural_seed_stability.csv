@@ -1,0 +1,433 @@
+seed,horizon_days,ratio_vs_baseline,stock,task,model
+0,1,1.0006,PERSISTENT,price,LSTM
+0,5,1.0096,PERSISTENT,price,LSTM
+0,20,1.0438,PERSISTENT,price,LSTM
+1,1,1.0031,PERSISTENT,price,LSTM
+1,5,1.0054,PERSISTENT,price,LSTM
+1,20,1.0279,PERSISTENT,price,LSTM
+2,1,1.0019,PERSISTENT,price,LSTM
+2,5,1.0107,PERSISTENT,price,LSTM
+2,20,1.0577,PERSISTENT,price,LSTM
+0,1,1.0069,PERSISTENT,price,GRU
+0,5,0.9992,PERSISTENT,price,GRU
+0,20,0.9975,PERSISTENT,price,GRU
+1,1,1.0034,PERSISTENT,price,GRU
+1,5,1.0029,PERSISTENT,price,GRU
+1,20,1.0087,PERSISTENT,price,GRU
+2,1,1.0086,PERSISTENT,price,GRU
+2,5,0.9953,PERSISTENT,price,GRU
+2,20,1.0066,PERSISTENT,price,GRU
+0,1,0.931,PERSISTENT,volatility,LSTM
+0,5,0.9962,PERSISTENT,volatility,LSTM
+0,20,0.8785,PERSISTENT,volatility,LSTM
+1,1,0.9421,PERSISTENT,volatility,LSTM
+1,5,0.9673,PERSISTENT,volatility,LSTM
+1,20,0.844,PERSISTENT,volatility,LSTM
+2,1,0.9496,PERSISTENT,volatility,LSTM
+2,5,0.9533,PERSISTENT,volatility,LSTM
+2,20,0.8459,PERSISTENT,volatility,LSTM
+0,1,0.932,PERSISTENT,volatility,LSTM with market information
+0,5,0.8843,PERSISTENT,volatility,LSTM with market information
+0,20,0.7617,PERSISTENT,volatility,LSTM with market information
+1,1,0.9751,PERSISTENT,volatility,LSTM with market information
+1,5,0.9413,PERSISTENT,volatility,LSTM with market information
+1,20,0.8246,PERSISTENT,volatility,LSTM with market information
+2,1,0.9263,PERSISTENT,volatility,LSTM with market information
+2,5,0.8892,PERSISTENT,volatility,LSTM with market information
+2,20,0.7562,PERSISTENT,volatility,LSTM with market information
+0,1,0.9207,PERSISTENT,volatility,GRU
+0,5,0.9564,PERSISTENT,volatility,GRU
+0,20,0.7962,PERSISTENT,volatility,GRU
+1,1,0.9215,PERSISTENT,volatility,GRU
+1,5,0.974,PERSISTENT,volatility,GRU
+1,20,0.7921,PERSISTENT,volatility,GRU
+2,1,0.9234,PERSISTENT,volatility,GRU
+2,5,0.9806,PERSISTENT,volatility,GRU
+2,20,0.8422,PERSISTENT,volatility,GRU
+0,1,0.9436,PERSISTENT,volatility,GRU with market information
+0,5,0.91,PERSISTENT,volatility,GRU with market information
+0,20,0.7374,PERSISTENT,volatility,GRU with market information
+1,1,0.9342,PERSISTENT,volatility,GRU with market information
+1,5,0.8961,PERSISTENT,volatility,GRU with market information
+1,20,0.7547,PERSISTENT,volatility,GRU with market information
+2,1,0.9334,PERSISTENT,volatility,GRU with market information
+2,5,0.9043,PERSISTENT,volatility,GRU with market information
+2,20,0.7628,PERSISTENT,volatility,GRU with market information
+0,1,0.9843,TECHM,price,LSTM
+0,5,1.0378,TECHM,price,LSTM
+0,20,1.0821,TECHM,price,LSTM
+1,1,1.0056,TECHM,price,LSTM
+1,5,1.0241,TECHM,price,LSTM
+1,20,1.0557,TECHM,price,LSTM
+2,1,0.9975,TECHM,price,LSTM
+2,5,1.0206,TECHM,price,LSTM
+2,20,1.0511,TECHM,price,LSTM
+0,1,1.0043,TECHM,price,GRU
+0,5,1.0225,TECHM,price,GRU
+0,20,1.0259,TECHM,price,GRU
+1,1,1.0141,TECHM,price,GRU
+1,5,1.0441,TECHM,price,GRU
+1,20,1.0564,TECHM,price,GRU
+2,1,0.9963,TECHM,price,GRU
+2,5,1.0204,TECHM,price,GRU
+2,20,1.0352,TECHM,price,GRU
+0,1,0.9717,TECHM,volatility,LSTM
+0,5,0.9811,TECHM,volatility,LSTM
+0,20,0.9211,TECHM,volatility,LSTM
+1,1,0.9555,TECHM,volatility,LSTM
+1,5,0.9549,TECHM,volatility,LSTM
+1,20,0.86,TECHM,volatility,LSTM
+2,1,0.9824,TECHM,volatility,LSTM
+2,5,0.9555,TECHM,volatility,LSTM
+2,20,0.8691,TECHM,volatility,LSTM
+0,1,0.9557,TECHM,volatility,LSTM with market information
+0,5,0.9064,TECHM,volatility,LSTM with market information
+0,20,0.7575,TECHM,volatility,LSTM with market information
+1,1,0.9846,TECHM,volatility,LSTM with market information
+1,5,0.902,TECHM,volatility,LSTM with market information
+1,20,0.7917,TECHM,volatility,LSTM with market information
+2,1,0.9738,TECHM,volatility,LSTM with market information
+2,5,0.9073,TECHM,volatility,LSTM with market information
+2,20,0.7895,TECHM,volatility,LSTM with market information
+0,1,0.9485,TECHM,volatility,GRU
+0,5,0.9322,TECHM,volatility,GRU
+0,20,0.7987,TECHM,volatility,GRU
+1,1,0.9519,TECHM,volatility,GRU
+1,5,0.9346,TECHM,volatility,GRU
+1,20,0.7876,TECHM,volatility,GRU
+2,1,0.9639,TECHM,volatility,GRU
+2,5,0.9389,TECHM,volatility,GRU
+2,20,0.8051,TECHM,volatility,GRU
+0,1,0.9701,TECHM,volatility,GRU with market information
+0,5,0.9095,TECHM,volatility,GRU with market information
+0,20,0.7676,TECHM,volatility,GRU with market information
+1,1,0.9888,TECHM,volatility,GRU with market information
+1,5,0.9053,TECHM,volatility,GRU with market information
+1,20,0.7806,TECHM,volatility,GRU with market information
+2,1,0.9872,TECHM,volatility,GRU with market information
+2,5,0.9211,TECHM,volatility,GRU with market information
+2,20,0.7764,TECHM,volatility,GRU with market information
+0,1,1.0003,INFOSYS,price,LSTM
+0,5,1.0072,INFOSYS,price,LSTM
+0,20,1.0412,INFOSYS,price,LSTM
+1,1,0.9968,INFOSYS,price,LSTM
+1,5,1.0085,INFOSYS,price,LSTM
+1,20,1.0697,INFOSYS,price,LSTM
+2,1,1.0007,INFOSYS,price,LSTM
+2,5,1.0075,INFOSYS,price,LSTM
+2,20,1.0475,INFOSYS,price,LSTM
+0,1,0.9992,INFOSYS,price,GRU
+0,5,1.0065,INFOSYS,price,GRU
+0,20,1.0459,INFOSYS,price,GRU
+1,1,1.0033,INFOSYS,price,GRU
+1,5,1.0158,INFOSYS,price,GRU
+1,20,1.0572,INFOSYS,price,GRU
+2,1,1.0051,INFOSYS,price,GRU
+2,5,1.0027,INFOSYS,price,GRU
+2,20,1.0468,INFOSYS,price,GRU
+0,1,0.9709,INFOSYS,volatility,LSTM
+0,5,0.9108,INFOSYS,volatility,LSTM
+0,20,0.7585,INFOSYS,volatility,LSTM
+1,1,0.9646,INFOSYS,volatility,LSTM
+1,5,0.9223,INFOSYS,volatility,LSTM
+1,20,0.7725,INFOSYS,volatility,LSTM
+2,1,0.9692,INFOSYS,volatility,LSTM
+2,5,0.9437,INFOSYS,volatility,LSTM
+2,20,0.8108,INFOSYS,volatility,LSTM
+0,1,0.9789,INFOSYS,volatility,LSTM with market information
+0,5,0.8899,INFOSYS,volatility,LSTM with market information
+0,20,0.759,INFOSYS,volatility,LSTM with market information
+1,1,0.9886,INFOSYS,volatility,LSTM with market information
+1,5,0.8814,INFOSYS,volatility,LSTM with market information
+1,20,0.7583,INFOSYS,volatility,LSTM with market information
+2,1,0.981,INFOSYS,volatility,LSTM with market information
+2,5,0.8839,INFOSYS,volatility,LSTM with market information
+2,20,0.7512,INFOSYS,volatility,LSTM with market information
+0,1,0.9637,INFOSYS,volatility,GRU
+0,5,0.9108,INFOSYS,volatility,GRU
+0,20,0.7462,INFOSYS,volatility,GRU
+1,1,0.9697,INFOSYS,volatility,GRU
+1,5,0.919,INFOSYS,volatility,GRU
+1,20,0.7657,INFOSYS,volatility,GRU
+2,1,0.9715,INFOSYS,volatility,GRU
+2,5,0.9107,INFOSYS,volatility,GRU
+2,20,0.7676,INFOSYS,volatility,GRU
+0,1,0.9926,INFOSYS,volatility,GRU with market information
+0,5,0.8775,INFOSYS,volatility,GRU with market information
+0,20,0.7345,INFOSYS,volatility,GRU with market information
+1,1,0.9711,INFOSYS,volatility,GRU with market information
+1,5,0.8866,INFOSYS,volatility,GRU with market information
+1,20,0.7322,INFOSYS,volatility,GRU with market information
+2,1,0.9829,INFOSYS,volatility,GRU with market information
+2,5,0.8934,INFOSYS,volatility,GRU with market information
+2,20,0.7395,INFOSYS,volatility,GRU with market information
+0,1,1.0032,TCS,price,LSTM
+0,5,1.0204,TCS,price,LSTM
+0,20,1.009,TCS,price,LSTM
+1,1,0.9998,TCS,price,LSTM
+1,5,1.0117,TCS,price,LSTM
+1,20,1.0283,TCS,price,LSTM
+2,1,0.9933,TCS,price,LSTM
+2,5,1.024,TCS,price,LSTM
+2,20,1.0652,TCS,price,LSTM
+0,1,0.9972,TCS,price,GRU
+0,5,1.0079,TCS,price,GRU
+0,20,1.0352,TCS,price,GRU
+1,1,0.9954,TCS,price,GRU
+1,5,0.997,TCS,price,GRU
+1,20,1.015,TCS,price,GRU
+2,1,0.9922,TCS,price,GRU
+2,5,1.0195,TCS,price,GRU
+2,20,1.0643,TCS,price,GRU
+0,1,0.9803,TCS,volatility,LSTM
+0,5,1.011,TCS,volatility,LSTM
+0,20,0.9757,TCS,volatility,LSTM
+1,1,0.9693,TCS,volatility,LSTM
+1,5,1.0037,TCS,volatility,LSTM
+1,20,0.9835,TCS,volatility,LSTM
+2,1,0.9772,TCS,volatility,LSTM
+2,5,1.0148,TCS,volatility,LSTM
+2,20,1.0063,TCS,volatility,LSTM
+0,1,0.9836,TCS,volatility,LSTM with market information
+0,5,0.9725,TCS,volatility,LSTM with market information
+0,20,0.946,TCS,volatility,LSTM with market information
+1,1,0.984,TCS,volatility,LSTM with market information
+1,5,0.9501,TCS,volatility,LSTM with market information
+1,20,0.8944,TCS,volatility,LSTM with market information
+2,1,0.9803,TCS,volatility,LSTM with market information
+2,5,0.9678,TCS,volatility,LSTM with market information
+2,20,0.9241,TCS,volatility,LSTM with market information
+0,1,0.9741,TCS,volatility,GRU
+0,5,0.999,TCS,volatility,GRU
+0,20,0.9951,TCS,volatility,GRU
+1,1,0.9547,TCS,volatility,GRU
+1,5,1.0264,TCS,volatility,GRU
+1,20,1.0143,TCS,volatility,GRU
+2,1,0.9664,TCS,volatility,GRU
+2,5,1.0165,TCS,volatility,GRU
+2,20,1.0239,TCS,volatility,GRU
+0,1,0.9752,TCS,volatility,GRU with market information
+0,5,0.9748,TCS,volatility,GRU with market information
+0,20,0.9589,TCS,volatility,GRU with market information
+1,1,0.9899,TCS,volatility,GRU with market information
+1,5,0.9729,TCS,volatility,GRU with market information
+1,20,0.9136,TCS,volatility,GRU with market information
+2,1,0.9754,TCS,volatility,GRU with market information
+2,5,0.99,TCS,volatility,GRU with market information
+2,20,0.9493,TCS,volatility,GRU with market information
+0,1,0.9969,HDFCBANK,price,LSTM
+0,5,0.9957,HDFCBANK,price,LSTM
+0,20,1.005,HDFCBANK,price,LSTM
+1,1,1.0052,HDFCBANK,price,LSTM
+1,5,0.9997,HDFCBANK,price,LSTM
+1,20,1.0279,HDFCBANK,price,LSTM
+2,1,1.0017,HDFCBANK,price,LSTM
+2,5,0.9886,HDFCBANK,price,LSTM
+2,20,0.9958,HDFCBANK,price,LSTM
+0,1,1.0012,HDFCBANK,price,GRU
+0,5,0.9975,HDFCBANK,price,GRU
+0,20,1.043,HDFCBANK,price,GRU
+1,1,1.0023,HDFCBANK,price,GRU
+1,5,0.9998,HDFCBANK,price,GRU
+1,20,1.0371,HDFCBANK,price,GRU
+2,1,0.9995,HDFCBANK,price,GRU
+2,5,1.007,HDFCBANK,price,GRU
+2,20,1.0261,HDFCBANK,price,GRU
+0,1,0.8773,HDFCBANK,volatility,LSTM
+0,5,0.974,HDFCBANK,volatility,LSTM
+0,20,0.8195,HDFCBANK,volatility,LSTM
+1,1,0.8756,HDFCBANK,volatility,LSTM
+1,5,0.9186,HDFCBANK,volatility,LSTM
+1,20,0.8,HDFCBANK,volatility,LSTM
+2,1,0.8793,HDFCBANK,volatility,LSTM
+2,5,0.9789,HDFCBANK,volatility,LSTM
+2,20,0.846,HDFCBANK,volatility,LSTM
+0,1,0.8735,HDFCBANK,volatility,LSTM with market information
+0,5,0.9177,HDFCBANK,volatility,LSTM with market information
+0,20,0.8257,HDFCBANK,volatility,LSTM with market information
+1,1,0.8762,HDFCBANK,volatility,LSTM with market information
+1,5,0.8999,HDFCBANK,volatility,LSTM with market information
+1,20,0.8313,HDFCBANK,volatility,LSTM with market information
+2,1,0.877,HDFCBANK,volatility,LSTM with market information
+2,5,0.9136,HDFCBANK,volatility,LSTM with market information
+2,20,0.8196,HDFCBANK,volatility,LSTM with market information
+0,1,0.8617,HDFCBANK,volatility,GRU
+0,5,0.9633,HDFCBANK,volatility,GRU
+0,20,0.8274,HDFCBANK,volatility,GRU
+1,1,0.8633,HDFCBANK,volatility,GRU
+1,5,0.9534,HDFCBANK,volatility,GRU
+1,20,0.8326,HDFCBANK,volatility,GRU
+2,1,0.8628,HDFCBANK,volatility,GRU
+2,5,0.9497,HDFCBANK,volatility,GRU
+2,20,0.8051,HDFCBANK,volatility,GRU
+0,1,0.8686,HDFCBANK,volatility,GRU with market information
+0,5,0.9171,HDFCBANK,volatility,GRU with market information
+0,20,0.829,HDFCBANK,volatility,GRU with market information
+1,1,0.8706,HDFCBANK,volatility,GRU with market information
+1,5,0.9114,HDFCBANK,volatility,GRU with market information
+1,20,0.8065,HDFCBANK,volatility,GRU with market information
+2,1,0.8683,HDFCBANK,volatility,GRU with market information
+2,5,0.8983,HDFCBANK,volatility,GRU with market information
+2,20,0.7962,HDFCBANK,volatility,GRU with market information
+0,1,1.0113,RELIANCE,price,LSTM
+0,5,1.0047,RELIANCE,price,LSTM
+0,20,1.0106,RELIANCE,price,LSTM
+1,1,1.0084,RELIANCE,price,LSTM
+1,5,1.0083,RELIANCE,price,LSTM
+1,20,1.0156,RELIANCE,price,LSTM
+2,1,1.0049,RELIANCE,price,LSTM
+2,5,1.0063,RELIANCE,price,LSTM
+2,20,1.0108,RELIANCE,price,LSTM
+0,1,1.0106,RELIANCE,price,GRU
+0,5,1.0131,RELIANCE,price,GRU
+0,20,1.0223,RELIANCE,price,GRU
+1,1,1.0052,RELIANCE,price,GRU
+1,5,1.0098,RELIANCE,price,GRU
+1,20,1.0385,RELIANCE,price,GRU
+2,1,1.0103,RELIANCE,price,GRU
+2,5,1.0126,RELIANCE,price,GRU
+2,20,1.025,RELIANCE,price,GRU
+0,1,0.9323,RELIANCE,volatility,LSTM
+0,5,0.9988,RELIANCE,volatility,LSTM
+0,20,0.9787,RELIANCE,volatility,LSTM
+1,1,0.9276,RELIANCE,volatility,LSTM
+1,5,1.0162,RELIANCE,volatility,LSTM
+1,20,1.0051,RELIANCE,volatility,LSTM
+2,1,0.9309,RELIANCE,volatility,LSTM
+2,5,0.9865,RELIANCE,volatility,LSTM
+2,20,0.9609,RELIANCE,volatility,LSTM
+0,1,0.9449,RELIANCE,volatility,LSTM with market information
+0,5,1.0378,RELIANCE,volatility,LSTM with market information
+0,20,1.0751,RELIANCE,volatility,LSTM with market information
+1,1,0.9378,RELIANCE,volatility,LSTM with market information
+1,5,1.0119,RELIANCE,volatility,LSTM with market information
+1,20,1.0183,RELIANCE,volatility,LSTM with market information
+2,1,0.9419,RELIANCE,volatility,LSTM with market information
+2,5,1.023,RELIANCE,volatility,LSTM with market information
+2,20,1.0273,RELIANCE,volatility,LSTM with market information
+0,1,0.9312,RELIANCE,volatility,GRU
+0,5,1.0102,RELIANCE,volatility,GRU
+0,20,0.9902,RELIANCE,volatility,GRU
+1,1,0.9368,RELIANCE,volatility,GRU
+1,5,1.0139,RELIANCE,volatility,GRU
+1,20,1.0182,RELIANCE,volatility,GRU
+2,1,0.9319,RELIANCE,volatility,GRU
+2,5,1.0347,RELIANCE,volatility,GRU
+2,20,1.0212,RELIANCE,volatility,GRU
+0,1,0.9368,RELIANCE,volatility,GRU with market information
+0,5,1.0203,RELIANCE,volatility,GRU with market information
+0,20,0.9868,RELIANCE,volatility,GRU with market information
+1,1,0.9285,RELIANCE,volatility,GRU with market information
+1,5,1.0349,RELIANCE,volatility,GRU with market information
+1,20,1.0013,RELIANCE,volatility,GRU with market information
+2,1,0.9271,RELIANCE,volatility,GRU with market information
+2,5,1.0216,RELIANCE,volatility,GRU with market information
+2,20,0.9912,RELIANCE,volatility,GRU with market information
+0,1,0.9949,AAPL,price,LSTM
+0,5,1.0072,AAPL,price,LSTM
+0,20,1.0337,AAPL,price,LSTM
+1,1,0.9892,AAPL,price,LSTM
+1,5,0.9995,AAPL,price,LSTM
+1,20,1.0385,AAPL,price,LSTM
+2,1,0.9992,AAPL,price,LSTM
+2,5,0.995,AAPL,price,LSTM
+2,20,1.0228,AAPL,price,LSTM
+0,1,1.0002,AAPL,price,GRU
+0,5,1.0017,AAPL,price,GRU
+0,20,1.0414,AAPL,price,GRU
+1,1,1.0004,AAPL,price,GRU
+1,5,1.0063,AAPL,price,GRU
+1,20,1.0332,AAPL,price,GRU
+2,1,0.999,AAPL,price,GRU
+2,5,1.0039,AAPL,price,GRU
+2,20,1.0269,AAPL,price,GRU
+0,1,1.0405,AAPL,volatility,LSTM
+0,5,1.0446,AAPL,volatility,LSTM
+0,20,1.0773,AAPL,volatility,LSTM
+1,1,1.0443,AAPL,volatility,LSTM
+1,5,1.0735,AAPL,volatility,LSTM
+1,20,1.0835,AAPL,volatility,LSTM
+2,1,1.046,AAPL,volatility,LSTM
+2,5,1.0597,AAPL,volatility,LSTM
+2,20,1.0408,AAPL,volatility,LSTM
+0,1,1.0361,AAPL,volatility,LSTM with market information
+0,5,1.1483,AAPL,volatility,LSTM with market information
+0,20,1.1021,AAPL,volatility,LSTM with market information
+1,1,1.0304,AAPL,volatility,LSTM with market information
+1,5,1.1062,AAPL,volatility,LSTM with market information
+1,20,1.1043,AAPL,volatility,LSTM with market information
+2,1,1.0568,AAPL,volatility,LSTM with market information
+2,5,1.0825,AAPL,volatility,LSTM with market information
+2,20,1.064,AAPL,volatility,LSTM with market information
+0,1,1.0327,AAPL,volatility,GRU
+0,5,1.053,AAPL,volatility,GRU
+0,20,1.0252,AAPL,volatility,GRU
+1,1,1.0115,AAPL,volatility,GRU
+1,5,1.0284,AAPL,volatility,GRU
+1,20,1.0039,AAPL,volatility,GRU
+2,1,1.0529,AAPL,volatility,GRU
+2,5,1.063,AAPL,volatility,GRU
+2,20,1.0315,AAPL,volatility,GRU
+0,1,1.0144,AAPL,volatility,GRU with market information
+0,5,1.0538,AAPL,volatility,GRU with market information
+0,20,1.0274,AAPL,volatility,GRU with market information
+1,1,1.0379,AAPL,volatility,GRU with market information
+1,5,1.1219,AAPL,volatility,GRU with market information
+1,20,1.1194,AAPL,volatility,GRU with market information
+2,1,1.0325,AAPL,volatility,GRU with market information
+2,5,1.1149,AAPL,volatility,GRU with market information
+2,20,1.06,AAPL,volatility,GRU with market information
+0,1,1.0015,MSFT,price,LSTM
+0,5,1.027,MSFT,price,LSTM
+0,20,1.0976,MSFT,price,LSTM
+1,1,1.0013,MSFT,price,LSTM
+1,5,1.0208,MSFT,price,LSTM
+1,20,1.0962,MSFT,price,LSTM
+2,1,1.01,MSFT,price,LSTM
+2,5,1.0267,MSFT,price,LSTM
+2,20,1.1178,MSFT,price,LSTM
+0,1,1.0035,MSFT,price,GRU
+0,5,1.0318,MSFT,price,GRU
+0,20,1.0904,MSFT,price,GRU
+1,1,0.9918,MSFT,price,GRU
+1,5,1.0202,MSFT,price,GRU
+1,20,1.0793,MSFT,price,GRU
+2,1,0.98,MSFT,price,GRU
+2,5,1.0118,MSFT,price,GRU
+2,20,1.0702,MSFT,price,GRU
+0,1,0.9346,MSFT,volatility,LSTM
+0,5,0.9904,MSFT,volatility,LSTM
+0,20,0.8409,MSFT,volatility,LSTM
+1,1,0.9396,MSFT,volatility,LSTM
+1,5,0.9683,MSFT,volatility,LSTM
+1,20,0.8483,MSFT,volatility,LSTM
+2,1,0.9646,MSFT,volatility,LSTM
+2,5,1.0492,MSFT,volatility,LSTM
+2,20,1.0103,MSFT,volatility,LSTM
+0,1,0.9172,MSFT,volatility,LSTM with market information
+0,5,0.941,MSFT,volatility,LSTM with market information
+0,20,0.8112,MSFT,volatility,LSTM with market information
+1,1,0.9142,MSFT,volatility,LSTM with market information
+1,5,0.9327,MSFT,volatility,LSTM with market information
+1,20,0.8012,MSFT,volatility,LSTM with market information
+2,1,0.9378,MSFT,volatility,LSTM with market information
+2,5,0.9391,MSFT,volatility,LSTM with market information
+2,20,0.8046,MSFT,volatility,LSTM with market information
+0,1,0.9396,MSFT,volatility,GRU
+0,5,0.9571,MSFT,volatility,GRU
+0,20,0.8229,MSFT,volatility,GRU
+1,1,0.9434,MSFT,volatility,GRU
+1,5,0.9676,MSFT,volatility,GRU
+1,20,0.8164,MSFT,volatility,GRU
+2,1,0.9452,MSFT,volatility,GRU
+2,5,0.9745,MSFT,volatility,GRU
+2,20,0.8057,MSFT,volatility,GRU
+0,1,0.9235,MSFT,volatility,GRU with market information
+0,5,0.9508,MSFT,volatility,GRU with market information
+0,20,0.7802,MSFT,volatility,GRU with market information
+1,1,0.9158,MSFT,volatility,GRU with market information
+1,5,0.9503,MSFT,volatility,GRU with market information
+1,20,0.7816,MSFT,volatility,GRU with market information
+2,1,0.9469,MSFT,volatility,GRU with market information
+2,5,0.9553,MSFT,volatility,GRU with market information
+2,20,0.8076,MSFT,volatility,GRU with market information

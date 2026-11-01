@@ -1,0 +1,193 @@
+model,versus,horizon_days,rmse_ratio,qlike_gain,dm_p_value,stock
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.9535,-0.607,0.0161,PERSISTENT
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,1.0592,-0.0264,0.0899,PERSISTENT
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,1.0515,-0.014,0.3537,PERSISTENT
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.9335,-0.4511,0.0388,PERSISTENT
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,1.0614,-0.0252,0.0773,PERSISTENT
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,0.996,-0.0024,0.8434,PERSISTENT
+HAR with market information,"GARCH(1,1) normal",1,0.9153,-0.4829,0.0253,PERSISTENT
+HAR with market information,"GARCH(1,1) normal",5,0.9905,-0.0025,0.8465,PERSISTENT
+HAR with market information,"GARCH(1,1) normal",20,0.9519,0.0059,0.6494,PERSISTENT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9548,-0.7634,0.0149,PERSISTENT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9831,0.0187,0.2961,PERSISTENT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9429,0.0053,0.725,PERSISTENT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9507,-0.8019,0.0102,PERSISTENT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.991,0.0094,0.4864,PERSISTENT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9378,0.0092,0.5014,PERSISTENT
+HAR with market information,HAR (own volatility history),1,0.9934,-0.0334,0.3375,PERSISTENT
+HAR with market information,HAR (own volatility history),5,0.9643,0.0127,0.1406,PERSISTENT
+HAR with market information,HAR (own volatility history),20,0.9355,0.0116,0.106,PERSISTENT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0013,-0.1564,0.1884,PERSISTENT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9281,0.0452,0.0035,PERSISTENT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.8967,0.0193,0.1287,PERSISTENT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,1.0184,-0.3508,0.0011,PERSISTENT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.9337,0.0346,0.0235,PERSISTENT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9416,0.0116,0.3378,PERSISTENT
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.9737,-0.6027,0.0133,TECHM
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,1.0231,0.0018,0.8727,TECHM
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,1.0948,-0.0056,0.6266,TECHM
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.9596,-0.4984,0.0221,TECHM
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,0.998,0.0116,0.2661,TECHM
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,1.0018,0.004,0.6084,TECHM
+HAR with market information,"GARCH(1,1) normal",1,0.9717,-0.7456,0.0169,TECHM
+HAR with market information,"GARCH(1,1) normal",5,0.9698,0.0179,0.1144,TECHM
+HAR with market information,"GARCH(1,1) normal",20,0.9664,0.0074,0.3115,TECHM
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9772,-0.7036,0.0114,TECHM
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.966,0.0222,0.0612,TECHM
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9837,0.0062,0.2423,TECHM
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9875,-0.8436,0.0084,TECHM
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9732,0.0115,0.4013,TECHM
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9765,0.0059,0.3492,TECHM
+HAR with market information,HAR (own volatility history),1,0.9971,-0.0823,0.3009,TECHM
+HAR with market information,HAR (own volatility history),5,0.9531,0.0175,0.1567,TECHM
+HAR with market information,HAR (own volatility history),20,0.936,0.0105,0.0662,TECHM
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0037,-0.1009,0.229,TECHM
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9442,0.0203,0.0846,TECHM
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.8985,0.0118,0.273,TECHM
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,1.0291,-0.3452,0.005,TECHM
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.9752,-0.0,0.998,TECHM
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9748,0.002,0.7961,TECHM
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.9983,-1.1181,0.0682,INFOSYS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,1.0079,-0.0038,0.854,INFOSYS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,1.004,-0.001,0.9061,INFOSYS
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.9985,-1.1211,0.0703,INFOSYS
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,0.9987,-0.0122,0.6621,INFOSYS
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,0.9809,0.0015,0.8938,INFOSYS
+HAR with market information,"GARCH(1,1) normal",1,1.0036,-1.3447,0.072,INFOSYS
+HAR with market information,"GARCH(1,1) normal",5,0.964,0.0002,0.9938,INFOSYS
+HAR with market information,"GARCH(1,1) normal",20,0.9289,0.0118,0.6099,INFOSYS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,1.0119,-1.4697,0.0626,INFOSYS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9559,-0.0119,0.7237,INFOSYS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9606,0.0023,0.8425,INFOSYS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,1.0122,-1.6352,0.0865,INFOSYS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9665,-0.018,0.6815,INFOSYS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9461,0.0049,0.7733,INFOSYS
+HAR with market information,HAR (own volatility history),1,1.0054,-0.3807,0.2334,INFOSYS
+HAR with market information,HAR (own volatility history),5,0.9722,-0.0111,0.7435,INFOSYS
+HAR with market information,HAR (own volatility history),20,0.9339,0.0117,0.6007,INFOSYS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0137,-0.3517,0.064,INFOSYS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9484,-0.0081,0.7622,INFOSYS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.9568,0.0033,0.7223,INFOSYS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,1.0137,-0.5141,0.1401,INFOSYS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.9677,-0.0058,0.8299,INFOSYS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9645,0.0034,0.7457,INFOSYS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.9496,-0.6994,0.0387,TCS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,1.0255,-0.0249,0.0071,TCS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,1.0443,-0.0114,0.1016,TCS
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.9389,-0.6012,0.047,TCS
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,1.0282,-0.0315,0.0351,TCS
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,1.0666,-0.0177,0.019,TCS
+HAR with market information,"GARCH(1,1) normal",1,0.9375,-0.5781,0.055,TCS
+HAR with market information,"GARCH(1,1) normal",5,0.9937,0.014,0.3742,TCS
+HAR with market information,"GARCH(1,1) normal",20,0.9792,0.0066,0.4952,TCS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9564,-0.832,0.0314,TCS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9777,0.0087,0.4339,TCS
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.9725,0.004,0.5777,TCS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9537,-0.8028,0.035,TCS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9922,-0.0013,0.9155,TCS
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.99,0.0019,0.8246,TCS
+HAR with market information,HAR (own volatility history),1,0.9997,-0.0305,0.6211,TCS
+HAR with market information,HAR (own volatility history),5,0.9761,0.025,0.0328,TCS
+HAR with market information,HAR (own volatility history),20,0.9583,0.0113,0.2227,TCS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0071,-0.1326,0.0532,TCS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9534,0.0336,0.005,TCS
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.9313,0.0154,0.0038,TCS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,1.0157,-0.2016,0.0256,TCS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.965,0.0302,0.072,TCS
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9282,0.0196,0.0448,TCS
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.8907,-0.3696,0.0736,HDFCBANK
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,0.97,0.0479,0.077,HDFCBANK
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,0.8779,0.0406,0.0685,HDFCBANK
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.8781,-0.2207,0.1449,HDFCBANK
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,0.9742,0.0459,0.1699,HDFCBANK
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,0.8892,0.0428,0.1447,HDFCBANK
+HAR with market information,"GARCH(1,1) normal",1,0.8927,-0.4027,0.0486,HDFCBANK
+HAR with market information,"GARCH(1,1) normal",5,0.9186,0.0142,0.7889,HDFCBANK
+HAR with market information,"GARCH(1,1) normal",20,0.8556,0.0338,0.1852,HDFCBANK
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.8912,-0.3175,0.09,HDFCBANK
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9257,0.0556,0.1324,HDFCBANK
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.8909,0.0402,0.1568,HDFCBANK
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.8843,-0.3008,0.0898,HDFCBANK
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9261,0.0361,0.4149,HDFCBANK
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.8783,0.0396,0.2271,HDFCBANK
+HAR with market information,HAR (own volatility history),1,0.9991,-0.0747,0.5218,HDFCBANK
+HAR with market information,HAR (own volatility history),5,0.9028,0.0022,0.9723,HDFCBANK
+HAR with market information,HAR (own volatility history),20,0.8556,0.0278,0.3277,HDFCBANK
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0005,0.0521,0.63,HDFCBANK
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9543,0.0077,0.8139,HDFCBANK
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,1.0148,-0.0004,0.9774,HDFCBANK
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,1.0071,-0.0801,0.3708,HDFCBANK
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.9506,-0.0098,0.8061,HDFCBANK
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9877,-0.0032,0.8714,HDFCBANK
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.8754,-0.2583,0.158,RELIANCE
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,0.971,0.0107,0.4127,RELIANCE
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,0.9908,0.0033,0.6842,RELIANCE
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.8782,-0.2373,0.1811,RELIANCE
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,0.9897,0.0071,0.6259,RELIANCE
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,1.0194,-0.0015,0.8536,RELIANCE
+HAR with market information,"GARCH(1,1) normal",1,0.8486,-0.0991,0.5165,RELIANCE
+HAR with market information,"GARCH(1,1) normal",5,0.9639,0.0211,0.0808,RELIANCE
+HAR with market information,"GARCH(1,1) normal",20,0.9531,0.0161,0.1505,RELIANCE
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.8853,-0.2404,0.1698,RELIANCE
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9909,0.0059,0.7018,RELIANCE
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,1.0452,-0.0087,0.3912,RELIANCE
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.8753,-0.213,0.216,RELIANCE
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9951,0.0081,0.5952,RELIANCE
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,1.0019,0.0043,0.7127,RELIANCE
+HAR with market information,HAR (own volatility history),1,0.9895,0.03,0.5101,RELIANCE
+HAR with market information,HAR (own volatility history),5,0.9449,0.0264,0.007,RELIANCE
+HAR with market information,HAR (own volatility history),20,0.921,0.0192,0.0349,RELIANCE
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,1.0113,0.0179,0.8018,RELIANCE
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,1.0204,-0.0048,0.6592,RELIANCE
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,1.0549,-0.012,0.0684,RELIANCE
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,0.9967,0.0243,0.6887,RELIANCE
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,1.0054,0.001,0.9436,RELIANCE
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9829,0.0058,0.5658,RELIANCE
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,1.0416,-1.0866,0.017,AAPL
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,1.0648,-0.0271,0.2382,AAPL
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,1.1337,-0.0229,0.1973,AAPL
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,1.0289,-0.8741,0.0212,AAPL
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,1.0465,-0.0278,0.2096,AAPL
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,1.0792,-0.0131,0.4655,AAPL
+HAR with market information,"GARCH(1,1) normal",1,0.9961,-0.3589,0.0346,AAPL
+HAR with market information,"GARCH(1,1) normal",5,1.0207,0.0094,0.6922,AAPL
+HAR with market information,"GARCH(1,1) normal",20,1.0245,0.0047,0.8481,AAPL
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,1.0324,-0.5527,0.0253,AAPL
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,1.1017,-0.0188,0.448,AAPL
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,1.118,-0.0092,0.753,AAPL
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,1.0223,-0.5215,0.0326,AAPL
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,1.1031,-0.0172,0.4745,AAPL
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,1.1329,-0.0174,0.4533,AAPL
+HAR with market information,HAR (own volatility history),1,0.9986,0.1651,0.1078,AAPL
+HAR with market information,HAR (own volatility history),5,1.0069,0.0091,0.6168,AAPL
+HAR with market information,HAR (own volatility history),20,1.0348,-0.0016,0.9339,AAPL
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,0.9912,0.5339,0.02,AAPL
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,1.0346,0.0083,0.7655,AAPL
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.9862,0.0137,0.5597,AAPL
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,0.9936,0.3526,0.039,AAPL
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,1.0541,0.0105,0.686,AAPL
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,1.0497,-0.0043,0.8098,AAPL
+LSTM (average of 3 seeds),"GARCH(1,1) normal",1,0.9231,-0.8493,0.0519,MSFT
+LSTM (average of 3 seeds),"GARCH(1,1) normal",5,0.9845,0.0383,0.1954,MSFT
+LSTM (average of 3 seeds),"GARCH(1,1) normal",20,0.9075,0.0258,0.0314,MSFT
+GRU (average of 3 seeds),"GARCH(1,1) normal",1,0.9244,-0.5774,0.055,MSFT
+GRU (average of 3 seeds),"GARCH(1,1) normal",5,0.9665,0.0535,0.0629,MSFT
+GRU (average of 3 seeds),"GARCH(1,1) normal",20,0.8537,0.038,0.0006,MSFT
+HAR with market information,"GARCH(1,1) normal",1,0.9046,-0.6149,0.0918,MSFT
+HAR with market information,"GARCH(1,1) normal",5,0.9211,0.0744,0.0373,MSFT
+HAR with market information,"GARCH(1,1) normal",20,0.7824,0.05,0.0027,MSFT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9013,-0.4497,0.0877,MSFT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9315,0.0777,0.063,MSFT
+LSTM with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.8311,0.0418,0.0083,MSFT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",1,0.9035,-0.5327,0.0877,MSFT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",5,0.9473,0.0719,0.0742,MSFT
+GRU with market information (average of 3 seeds),"GARCH(1,1) normal",20,0.8176,0.0428,0.0091,MSFT
+HAR with market information,HAR (own volatility history),1,0.9693,0.393,0.0361,MSFT
+HAR with market information,HAR (own volatility history),5,0.9453,0.0263,0.2826,MSFT
+HAR with market information,HAR (own volatility history),20,0.8697,0.0218,0.0966,MSFT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),1,0.9764,0.3996,0.2039,MSFT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),5,0.9462,0.0395,0.1745,MSFT
+LSTM with market information (average of 3 seeds),LSTM (average of 3 seeds),20,0.9158,0.016,0.145,MSFT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),1,0.9775,0.0446,0.7336,MSFT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),5,0.9802,0.0184,0.4639,MSFT
+GRU with market information (average of 3 seeds),GRU (average of 3 seeds),20,0.9577,0.0048,0.6908,MSFT
