@@ -1,4 +1,4 @@
-# Stocks_Prediction_Using_Time_Series
+# Stocks Prediction Using Time Series Models
 
 Walk-forward tests of ARIMA, SARIMA, Prophet, GARCH, HAR, LSTM, GRU, ridge regression and gradient boosting on eight stocks: six NSE-listed Indian stocks and Apple and Microsoft. Every stock gets exactly the same models and the same tests. The price models are judged against a naive baseline that simply repeats the last close, the volatility models are judged against a 21-day rolling volatility baseline, and the volatility forecasts are then used to size a position in a volatility-targeting backtest.
 
